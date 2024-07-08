@@ -69,3 +69,5 @@ if __name__ == "__main__":
     np.save(os.path.join("data", "cstr", "u_eval.npy"), u_eval)
     np.save(os.path.join("data", "cstr", "y_transf.npy"), y_transf)
     np.save(os.path.join("data", "cstr", "y_eval.npy"), y_eval)
+
+    print("Ho finito")
